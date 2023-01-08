@@ -1,0 +1,30 @@
+.videoWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 32%;
+}
+
+.videoBox {
+  width: 100%;
+  overflow: hidden;
+  height: calc(300px * 0.9);
+}
+
+.videoBox > img {
+  width: 100%;
+}
+.title {
+  width: 100%;
+  color: var(--color-white);
+  font-weight: bold;
+}
+.nickname {
+}
+.description {
+}
+.viewCount {
+}
+
+.date {
+}
